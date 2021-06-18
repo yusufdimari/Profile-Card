@@ -1,0 +1,73 @@
+body {
+  background-image: url(../images/images/bg-pattern-top.svg);
+  background-position: right;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.card {
+  position: absolute;
+  top: 15rem;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.upperCard {
+  height: 10rem;
+  width: 20rem;
+  background-image: url(/images/bg-pattern-card.svg);
+}
+.lowerCard {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  bottom: 0;
+  width: 18rem;
+  background-color: white;
+}
+.image {
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  border-radius: 5rem;
+  width: 5rem;
+  border: 5px solid white;
+}
+.description {
+  margin-top: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.social {
+  border-top: 2px solid black;
+  margin: 0;
+}
+.social ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.socialList {
+  padding: 5px;
+  margin: 10px;
+}
+.title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.subTitle {
+  color: hsl(227, 10%, 46%);
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: center;
+}
