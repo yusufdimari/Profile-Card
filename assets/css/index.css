@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/images/bg-pattern-top.svg);
+  background-image: url(../images/bg-pattern-top.svg);
   background-position: right;
   background-color: hsl(185, 75%, 39%);
   display: flex;
@@ -20,7 +20,7 @@ body {
 .upperCard {
   height: 10rem;
   width: 20rem;
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(../images/bg-pattern-card.svg);
 }
 .lowerCard {
   position: absolute;
@@ -34,8 +34,9 @@ body {
   position: absolute;
   top: 80px;
   z-index: 1;
-  border-radius: 5rem;
-  width: 5rem;
+  border-radius: 8rem;
+  width: 6rem;
+  height: 5rem;
   border: 5px solid white;
 }
 .description {
